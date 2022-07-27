@@ -109,21 +109,63 @@
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="65.625"/>
         </scene>
-        <!--View Controller-->
+        <!--Zoom Single Image View Controller-->
         <scene sceneID="xyX-f7-gbC">
             <objects>
-                <viewController id="ZHx-wc-b5n" sceneMemberID="viewController">
+                <viewController id="ZHx-wc-b5n" customClass="ZoomSingleImageViewController" customModule="TableViewWithScroll" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ftf-nJ-ZOe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEQ-sJ-oaX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arbol" translatesAutoresizingMaskIntoConstraints="NO" id="V8q-XV-8Ob">
+                                        <rect key="frame" x="54" y="282.5" width="306" height="209"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="9"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="1" height="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="bottom" secondItem="dCI-qN-J5M" secondAttribute="bottom" constant="491.5" id="7yt-5r-rb6"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="leading" secondItem="dCI-qN-J5M" secondAttribute="leading" constant="54" id="ITR-QB-0KY"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="top" secondItem="dCI-qN-J5M" secondAttribute="top" constant="282.5" id="IZl-jD-dFi"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="centerY" secondItem="jEQ-sJ-oaX" secondAttribute="centerY" id="LmZ-wi-FvU"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="width" secondItem="BtF-LX-QZ2" secondAttribute="width" multiplier="0.73913" id="Njn-pi-vDs"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="centerX" secondItem="jEQ-sJ-oaX" secondAttribute="centerX" id="hRq-WH-UnO"/>
+                                    <constraint firstItem="V8q-XV-8Ob" firstAttribute="trailing" secondItem="dCI-qN-J5M" secondAttribute="trailing" constant="360" id="ycO-em-yCr"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="dCI-qN-J5M"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="BtF-LX-QZ2"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nt6-9s-c61"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="nt6-9s-c61" firstAttribute="bottom" secondItem="jEQ-sJ-oaX" secondAttribute="bottom" id="3jR-Yy-L5g"/>
+                            <constraint firstItem="jEQ-sJ-oaX" firstAttribute="top" secondItem="nt6-9s-c61" secondAttribute="top" id="HC9-GN-pCb"/>
+                            <constraint firstItem="nt6-9s-c61" firstAttribute="trailing" secondItem="jEQ-sJ-oaX" secondAttribute="trailing" id="NDe-RB-2xp"/>
+                            <constraint firstItem="jEQ-sJ-oaX" firstAttribute="leading" secondItem="nt6-9s-c61" secondAttribute="leading" id="hPS-Dv-y0G"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Woz-Wk-1qk"/>
+                    <connections>
+                        <outlet property="imageViewZoom" destination="V8q-XV-8Ob" id="F8P-Aw-hrM"/>
+                        <outlet property="scrollView" destination="jEQ-sJ-oaX" id="tSJ-W9-ntX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mzq-T6-1Tc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13" y="761"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="760.71428571428567"/>
         </scene>
         <!--Player View Controller-->
         <scene sceneID="MYP-UR-LhP">
