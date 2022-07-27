@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VideoPlayer" customModule="TableViewWithScroll" customModuleProvider="target">
+            <connections>
+                <outlet property="vwPlayer" destination="Ikp-Zm-lKj" id="wPY-Hd-Uda"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikp-Zm-lKj">
+                    <rect key="frame" x="0.0" y="44" width="414" height="254"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arbol" translatesAutoresizingMaskIntoConstraints="NO" id="cI2-dp-6fS">
+                            <rect key="frame" x="-10" y="-10" width="434" height="274"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cI2-dp-6fS" firstAttribute="top" secondItem="Ikp-Zm-lKj" secondAttribute="top" constant="-10" id="1dd-Vy-Ry0"/>
+                        <constraint firstItem="cI2-dp-6fS" firstAttribute="leading" secondItem="Ikp-Zm-lKj" secondAttribute="leading" constant="-10" id="SUa-5q-g4n"/>
+                        <constraint firstAttribute="trailing" secondItem="cI2-dp-6fS" secondAttribute="trailing" constant="-10" id="d7s-DM-6Lk"/>
+                        <constraint firstAttribute="bottom" secondItem="cI2-dp-6fS" secondAttribute="bottom" constant="-10" id="uQ1-2K-Qkv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ikp-Zm-lKj" secondAttribute="bottom" id="BaB-wM-yYK"/>
+                <constraint firstItem="Ikp-Zm-lKj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Pj6-eA-nkU"/>
+                <constraint firstItem="Ikp-Zm-lKj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Uq6-qM-5X2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ikp-Zm-lKj" secondAttribute="trailing" id="k1N-Ox-x8k"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="265.17857142857144"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arbol" width="306" height="209"/>
+    </resources>
+</document>

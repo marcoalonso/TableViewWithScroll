@@ -1,0 +1,20 @@
+PODS:
+  - PinchToZoomImageView (1.1.2)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - PinchToZoomImageView
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - PinchToZoomImageView
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  PinchToZoomImageView: c743d831ac886f22900ccd8e38b3033c89ac8603
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 89c99bf226fe9d9fd65cc8db0f3603d74e2ccbf5
+
+COCOAPODS: 1.11.3

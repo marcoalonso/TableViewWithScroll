@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		6016C75D288A17740086E238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016C75C288A17740086E238 /* AppDelegate.swift */; };
 		6016C75F288A17740086E238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016C75E288A17740086E238 /* SceneDelegate.swift */; };
-		6016C761288A17740086E238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016C760288A17740086E238 /* ViewController.swift */; };
+		6016C761288A17740086E238 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016C760288A17740086E238 /* HomeViewController.swift */; };
 		6016C764288A17740086E238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C762288A17740086E238 /* Main.storyboard */; };
 		6016C766288A17750086E238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6016C765288A17750086E238 /* Assets.xcassets */; };
 		6016C769288A17750086E238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C767288A17750086E238 /* LaunchScreen.storyboard */; };
+		60B34285288E6A7C00ED351C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B34284288E6A7C00ED351C /* UIView+Extension.swift */; };
+		60E14971288E3C09007AE911 /* YoutubeHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */; };
+		60E14973288E3D5B007AE911 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E14972288E3D5B007AE911 /* PlayerViewController.swift */; };
+		60E14976288E4326007AE911 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E14975288E4326007AE911 /* VideoPlayer.swift */; };
+		60E14978288E4332007AE911 /* VideoPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E14977288E4332007AE911 /* VideoPlayer.xib */; };
+		60E1497A288E4799007AE911 /* meditar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 60E14979288E4798007AE911 /* meditar.mp4 */; };
+		94A40CAE0813FDA9BC65C59D /* Pods_TableViewWithScroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84762B0D382D2F8241290F6B /* Pods_TableViewWithScroll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59CC38427123C0EF7B21B897 /* Pods-TableViewWithScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewWithScroll.debug.xcconfig"; path = "Target Support Files/Pods-TableViewWithScroll/Pods-TableViewWithScroll.debug.xcconfig"; sourceTree = "<group>"; };
 		6016C759288A17740086E238 /* TableViewWithScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewWithScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6016C75C288A17740086E238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6016C75E288A17740086E238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6016C760288A17740086E238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6016C760288A17740086E238 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6016C763288A17740086E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6016C765288A17750086E238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6016C768288A17750086E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6016C76A288A17750086E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B34284288E6A7C00ED351C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeHelperViewController.swift; sourceTree = "<group>"; };
+		60E14972288E3D5B007AE911 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		60E14975288E4326007AE911 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		60E14977288E4332007AE911 /* VideoPlayer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayer.xib; sourceTree = "<group>"; };
+		60E14979288E4798007AE911 /* meditar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meditar.mp4; sourceTree = "<group>"; };
+		84762B0D382D2F8241290F6B /* Pods_TableViewWithScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewWithScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25DCFB745CFCFBDA68EAB59 /* Pods-TableViewWithScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewWithScroll.release.xcconfig"; path = "Target Support Files/Pods-TableViewWithScroll/Pods-TableViewWithScroll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A40CAE0813FDA9BC65C59D /* Pods_TableViewWithScroll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				6016C75B288A17740086E238 /* TableViewWithScroll */,
 				6016C75A288A17740086E238 /* Products */,
+				C69B158AFF06ED97C0CE195C /* Pods */,
+				9F773AB9F020F9941CBD2F9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,46 @@
 		6016C75B288A17740086E238 /* TableViewWithScroll */ = {
 			isa = PBXGroup;
 			children = (
+				60E14979288E4798007AE911 /* meditar.mp4 */,
+				60B34284288E6A7C00ED351C /* UIView+Extension.swift */,
+				60E14974288E4315007AE911 /* VideoPlayer */,
 				6016C75C288A17740086E238 /* AppDelegate.swift */,
 				6016C75E288A17740086E238 /* SceneDelegate.swift */,
-				6016C760288A17740086E238 /* ViewController.swift */,
+				6016C760288A17740086E238 /* HomeViewController.swift */,
 				6016C762288A17740086E238 /* Main.storyboard */,
 				6016C765288A17750086E238 /* Assets.xcassets */,
 				6016C767288A17750086E238 /* LaunchScreen.storyboard */,
 				6016C76A288A17750086E238 /* Info.plist */,
+				60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */,
+				60E14972288E3D5B007AE911 /* PlayerViewController.swift */,
 			);
 			path = TableViewWithScroll;
+			sourceTree = "<group>";
+		};
+		60E14974288E4315007AE911 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				60E14975288E4326007AE911 /* VideoPlayer.swift */,
+				60E14977288E4332007AE911 /* VideoPlayer.xib */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		9F773AB9F020F9941CBD2F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84762B0D382D2F8241290F6B /* Pods_TableViewWithScroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C69B158AFF06ED97C0CE195C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59CC38427123C0EF7B21B897 /* Pods-TableViewWithScroll.debug.xcconfig */,
+				F25DCFB745CFCFBDA68EAB59 /* Pods-TableViewWithScroll.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6016C76D288A17750086E238 /* Build configuration list for PBXNativeTarget "TableViewWithScroll" */;
 			buildPhases = (
+				26B7AFAF828E7C89536D22E3 /* [CP] Check Pods Manifest.lock */,
 				6016C755288A17740086E238 /* Sources */,
 				6016C756288A17740086E238 /* Frameworks */,
 				6016C757288A17740086E238 /* Resources */,
+				BD8390BD2B4FEDE1A2F04D4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E14978288E4332007AE911 /* VideoPlayer.xib in Resources */,
 				6016C769288A17750086E238 /* LaunchScreen.storyboard in Resources */,
+				60E1497A288E4799007AE911 /* meditar.mp4 in Resources */,
 				6016C766288A17750086E238 /* Assets.xcassets in Resources */,
 				6016C764288A17740086E238 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +187,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26B7AFAF828E7C89536D22E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewWithScroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8390BD2B4FEDE1A2F04D4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewWithScroll/Pods-TableViewWithScroll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewWithScroll/Pods-TableViewWithScroll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableViewWithScroll/Pods-TableViewWithScroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6016C755288A17740086E238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6016C761288A17740086E238 /* ViewController.swift in Sources */,
+				60E14973288E3D5B007AE911 /* PlayerViewController.swift in Sources */,
+				60B34285288E6A7C00ED351C /* UIView+Extension.swift in Sources */,
+				60E14971288E3C09007AE911 /* YoutubeHelperViewController.swift in Sources */,
+				60E14976288E4326007AE911 /* VideoPlayer.swift in Sources */,
+				6016C761288A17740086E238 /* HomeViewController.swift in Sources */,
 				6016C75D288A17740086E238 /* AppDelegate.swift in Sources */,
 				6016C75F288A17740086E238 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +382,7 @@
 		};
 		6016C76E288A17750086E238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CC38427123C0EF7B21B897 /* Pods-TableViewWithScroll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +411,7 @@
 		};
 		6016C76F288A17750086E238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25DCFB745CFCFBDA68EAB59 /* Pods-TableViewWithScroll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
