@@ -13,6 +13,7 @@
 		6016C764288A17740086E238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C762288A17740086E238 /* Main.storyboard */; };
 		6016C766288A17750086E238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6016C765288A17750086E238 /* Assets.xcassets */; };
 		6016C769288A17750086E238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C767288A17750086E238 /* LaunchScreen.storyboard */; };
+		607E06CA2891B6A70018F522 /* ZoomToImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E06C92891B6A70018F522 /* ZoomToImageViewController.swift */; };
 		60B34285288E6A7C00ED351C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B34284288E6A7C00ED351C /* UIView+Extension.swift */; };
 		60E14971288E3C09007AE911 /* YoutubeHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */; };
 		60E14973288E3D5B007AE911 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E14972288E3D5B007AE911 /* PlayerViewController.swift */; };
@@ -32,6 +33,7 @@
 		6016C765288A17750086E238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6016C768288A17750086E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6016C76A288A17750086E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607E06C92891B6A70018F522 /* ZoomToImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomToImageViewController.swift; sourceTree = "<group>"; };
 		60B34284288E6A7C00ED351C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeHelperViewController.swift; sourceTree = "<group>"; };
 		60E14972288E3D5B007AE911 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				6016C76A288A17750086E238 /* Info.plist */,
 				60E14970288E3C09007AE911 /* YoutubeHelperViewController.swift */,
 				60E14972288E3D5B007AE911 /* PlayerViewController.swift */,
+				607E06C92891B6A70018F522 /* ZoomToImageViewController.swift */,
 			);
 			path = TableViewWithScroll;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				60B34285288E6A7C00ED351C /* UIView+Extension.swift in Sources */,
 				60E14971288E3C09007AE911 /* YoutubeHelperViewController.swift in Sources */,
 				60E14976288E4326007AE911 /* VideoPlayer.swift in Sources */,
+				607E06CA2891B6A70018F522 /* ZoomToImageViewController.swift in Sources */,
 				6016C761288A17740086E238 /* HomeViewController.swift in Sources */,
 				6016C75D288A17740086E238 /* AppDelegate.swift in Sources */,
 				6016C75F288A17740086E238 /* SceneDelegate.swift in Sources */,
