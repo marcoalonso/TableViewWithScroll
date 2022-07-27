@@ -7,6 +7,6 @@ target 'TableViewWithScroll' do
 
   # Pods for TableViewWithScroll
 pod "youtube-ios-player-helper"
-pod 'PinchToZoomImageView'
+
 
 end
